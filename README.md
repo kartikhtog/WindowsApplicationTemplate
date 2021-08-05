@@ -69,11 +69,11 @@
 4. Macos
 5. Xamarin Forms renamed to .Net Multi-platform App UI (.NET MAUI) , Also contains new features + open source
 6. Uno Platform 
-  1. Writed code in Xaml and C# and compile
-  2. Can be complied to
-    1. WinUI
-    2. iOS
-    3. Android
-    4. macOS
-    5. **Web**
+    1. Writen code in Xaml and C# and compile
+    2. Can be complied to
+        1. WinUI
+        2. iOS
+        3. Android
+        4. macOS
+        5. **Web**
 
