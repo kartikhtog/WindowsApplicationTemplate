@@ -57,12 +57,12 @@
 - Desktop app keeps running when minimized
 
 ## Cross platform Desktop apps
-- Before .net 6
+### Before .net 6
 1. Xamarin.iOS
 2. Xamarin.Android
 3. UWP
 4. Xamarin.Forms (works for everythiing in UWP and Xamarin.Android and Xamarin.iOS)
-- After .net 6 (renaming)
+### After .net 6 (renaming)
 1. .Net for iOS
 2. .Net for Android
 3. WinUI
