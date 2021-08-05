@@ -1,7 +1,6 @@
 # dot net UI framewords
 
-- Windows forms, WPF , UWP, WinUI, Xamarin.Forms , .NET MAUI
-
+#### Windows forms, WPF , UWP, WinUI, Xamarin.Forms , .NET MAUI
 - .Net framework only work on windows
 - .Net core is cross playform to win, mac, linux
 - .Net framework contains core
