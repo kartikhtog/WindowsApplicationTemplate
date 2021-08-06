@@ -76,3 +76,10 @@
         4. macOS
         5. **Web**
 
+## Final Considerations 
+- WinUI apps only works windows 10
+- If you want to have it work on older version, use **WPF**
+- Windows Forms is oldest application framework for Desktop applications
+1. Windows form also has avaiable many .3 party components
+2. Easy to use Windows Forms designer
+
