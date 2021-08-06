@@ -83,3 +83,5 @@
 1. Windows form also has avaiable many .3 party components
 2. Easy to use Windows Forms designer
 
+![MVVM-Pattern](./MVVM-Pattern.PNG)
+![MVVM-Pattern-Advantages](./MVVM-Pattern-Advantages.PNG)
