@@ -6,4 +6,25 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManager.Common\EmployeeManager.Common.csproj" />
+    <ProjectReference Include="..\EmployeeManager.DataAccess\EmployeeManager.DataAccess.csproj" />
+    <ProjectReference Include="..\EmployeeManager.ViewModel\EmployeeManager.ViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Controls\HeaderControl.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
 </Project>

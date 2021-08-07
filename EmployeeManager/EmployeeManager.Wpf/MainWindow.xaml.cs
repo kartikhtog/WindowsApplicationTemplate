@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EmployeeManager.DataAccess;
+using EmployeeManager.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,19 @@ namespace EmployeeManager.Wpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        private MainViewModel _viewModel;
+
         public MainWindow()
         {
             InitializeComponent();
+            _viewModel = new MainViewModel(new EmployeeDataProvider());
+            DataContext = _viewModel;
+            Loaded += MainWinow_Loaded;
+        }
+
+        private void MainWinow_Loaded(object sender, RoutedEventArgs e)
+        {
+            _viewModel.Load();
         }
     }
 }
